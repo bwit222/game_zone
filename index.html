@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Game Zone • Ultimate Browser Games</title>
+  <meta name="description"
+    content="Play classic and futuristic games in your browser. Choose between Ludo and Tic Tac Toe with intelligent AI, 3D dice, and sleek graphics.">
+
+  <!-- Google Fonts: Outfit -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800;900&display=swap"
+    rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <!-- Ambient background glow lights -->
+  <div class="ambient-glow glow-1" aria-hidden="true"></div>
+  <div class="ambient-glow glow-2" aria-hidden="true"></div>
+  <div class="ambient-glow glow-3" aria-hidden="true"></div>
+
+  <div class="page-wrapper">
+    <!-- Header Section -->
+    <header class="portal-header">
+      <div class="brand-pill">
+        <span class="brand-dot"></span>
+        <span class="brand-category">SHUBHAM'S ARCADE HUB</span>
+      </div>
+      <h1 class="main-title">Roxy Game <span>Zone</span></h1>
+      <p class="tagline">Select your arena, challenge your friends, and dive into fast-paced strategic gameplay directly
+        in your browser.</p>
+    </header>
+
+    <!-- Games Showcase Grid -->
+    <main class="games-container">
+      <!-- Game 1: Ludo -->
+      <article class="game-card card-ludo">
+        <div class="card-glow" aria-hidden="true"></div>
+        <div class="card-content">
+          <div class="game-badge-row">
+            <span class="badge badge-players">👥 2–4 PLAYERS</span>
+            <span class="badge badge-type">CLASSIC BOARD</span>
+          </div>
+
+          <div class="game-visual ludo-visual">
+            <div class="dice-showcase">
+              <span class="dice-icon">🎲</span>
+            </div>
+            <div class="tokens-row">
+              <span class="token-dot token-red" title="Red"></span>
+              <span class="token-dot token-green" title="Green"></span>
+              <span class="token-dot token-yellow" title="Yellow"></span>
+              <span class="token-dot token-blue" title="Blue"></span>
+            </div>
+          </div>
+
+          <div class="game-info">
+            <h2 class="game-name">Ludo</h2>
+            <p class="game-desc">
+              Experience the classic family board game. Roll the 3D dice, release tokens, knock out opponents on
+              non-safe tiles, and navigate your squad to victory!
+            </p>
+
+            <ul class="feature-pills">
+              <li>3D Animated Dice</li>
+              <li>Safe Star Zones</li>
+              <li>Token Knockouts</li>
+              <li>Pass & Play</li>
+            </ul>
+          </div>
+
+          <div class="card-footer">
+            <a href="ludo/index.html" class="play-btn btn-ludo">
+              <span>Play Now</span>
+              <svg class="btn-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                <line x1="5" y1="12" x2="19" y2="12"></line>
+                <polyline points="12 5 19 12 12 19"></polyline>
+              </svg>
+            </a>
+          </div>
+        </div>
+      </article>
+
+      <!-- Game 2: Tic Tac Toe -->
+      <article class="game-card card-tictactoe">
+        <div class="card-glow" aria-hidden="true"></div>
+        <div class="card-content">
+          <div class="game-badge-row">
+            <span class="badge badge-players">👤 1–2 PLAYERS</span>
+            <span class="badge badge-type">CYBER STRATEGY</span>
+          </div>
+
+          <div class="game-visual ttt-visual">
+            <div class="symbols-showcase">
+              <span class="symbol-x">✕</span>
+              <span class="symbol-divider">•</span>
+              <span class="symbol-o">◯</span>
+            </div>
+            <div class="mini-grid-preview" aria-hidden="true">
+              <span class="mg-cell has-x">✕</span>
+              <span class="mg-cell"></span>
+              <span class="mg-cell has-o">◯</span>
+              <span class="mg-cell"></span>
+              <span class="mg-cell has-x">✕</span>
+              <span class="mg-cell"></span>
+              <span class="mg-cell has-o">◯</span>
+              <span class="mg-cell"></span>
+              <span class="mg-cell has-x">✕</span>
+            </div>
+          </div>
+
+          <div class="game-info">
+            <h2 class="game-name">Tic Tac Toe</h2>
+            <p class="game-desc">
+              Futuristic neon grid combat! Challenge a friend in local pass & play or test your skills against our smart
+              & unbeatable Minimax AI engine.
+            </p>
+
+            <ul class="feature-pills">
+              <li>Unbeatable AI</li>
+              <li>Neon Cyber UI</li>
+              <li>Laser Strike Lines</li>
+              <li>Sound FX & Confetti</li>
+            </ul>
+          </div>
+
+          <div class="card-footer">
+            <a href="tic-tac-toe/index.html" class="play-btn btn-ttt">
+              <span>Play Now</span>
+              <svg class="btn-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                <line x1="5" y1="12" x2="19" y2="12"></line>
+                <polyline points="12 5 19 12 12 19"></polyline>
+              </svg>
+            </a>
+          </div>
+        </div>
+      </article>
+      <!-- Game 3: Chess -->
+      <article class="game-card card-chess">
+        <div class="card-glow" aria-hidden="true"></div>
+        <div class="card-content">
+          <div class="game-badge-row">
+            <span class="badge badge-players">👤 1–2 PLAYERS</span>
+            <span class="badge badge-type">STRATEGY</span>
+          </div>
+
+          <div class="game-visual chess-visual">
+            <div class="chess-piece-showcase">
+              <span class="chess-icon">♘</span>
+            </div>
+            <div class="chess-grid-preview" aria-hidden="true">
+              <div class="cg-row"><span class="cg-cell light"></span><span class="cg-cell dark"></span><span
+                  class="cg-cell light"></span><span class="cg-cell dark"></span></div>
+              <div class="cg-row"><span class="cg-cell dark"></span><span class="cg-cell light"></span><span
+                  class="cg-cell dark"></span><span class="cg-cell light"></span></div>
+              <div class="cg-row"><span class="cg-cell light"></span><span class="cg-cell dark"></span><span
+                  class="cg-cell light"></span><span class="cg-cell dark"></span></div>
+            </div>
+          </div>
+
+          <div class="game-info">
+            <h2 class="game-name">Chess</h2>
+            <p class="game-desc">
+              Play classic chess against a friend or challenge an intelligent AI with multiple difficulty levels. Master
+              the board and achieve checkmate.
+            </p>
+
+            <ul class="feature-pills">
+              <li>Play vs Friend</li>
+              <li>Play vs AI</li>
+              <li>3 AI Levels</li>
+              <li>Legal Move Detection</li>
+            </ul>
+          </div>
+
+          <div class="card-footer">
+            <a href="chess/index.html" class="play-btn btn-chess">
+              <span>Play Now</span>
+              <svg class="btn-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                <line x1="5" y1="12" x2="19" y2="12"></line>
+                <polyline points="12 5 19 12 12 19"></polyline>
+              </svg>
+            </a>
+          </div>
+        </div>
+      </article>
+      <!-- Game 4: Valorous Rabbit -->
+      <article class="game-card card-rabbit">
+        <div class="card-glow" aria-hidden="true"></div>
+        <div class="card-content">
+          <div class="game-badge-row">
+            <span class="badge badge-players">👤 1 PLAYER</span>
+            <span class="badge badge-type">ADVENTURE</span>
+          </div>
+
+          <div class="game-visual rabbit-visual">
+            <div class="rabbit-showcase">
+              <span class="rabbit-icon">🐇</span>
+              <span class="carrot-icon">🥕</span>
+            </div>
+            <div class="rabbit-scenery" aria-hidden="true">
+              <span class="tree-left">🌲</span>
+              <span class="tree-right">🌲</span>
+              <div class="ground-line"></div>
+            </div>
+          </div>
+
+          <div class="game-info">
+            <h2 class="game-name">Valorous Rabbit</h2>
+            <p class="game-desc">
+              Guide a courageous rabbit through a dangerous adventure filled with obstacles, enemies, collectibles, and exciting challenges.
+            </p>
+
+            <ul class="feature-pills">
+              <li>Adventure</li>
+              <li>Obstacles</li>
+              <li>Enemies</li>
+              <li>Collectibles</li>
+            </ul>
+          </div>
+
+          <div class="card-footer">
+            <a href="valorous-rabbit/index.html" class="play-btn btn-rabbit">
+              <span>Play Now</span>
+              <svg class="btn-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                <line x1="5" y1="12" x2="19" y2="12"></line>
+                <polyline points="12 5 19 12 12 19"></polyline>
+              </svg>
+            </a>
+          </div>
+        </div>
+      </article>
+    </main>
+
+    <!-- Footer -->
+    <footer class="portal-footer">
+      <p>Copyright © 2026 SHUBHAM'S ARCADE HUB</p>
+    </footer>
+  </div>
+</body>
+
+</html>
